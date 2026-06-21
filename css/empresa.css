@@ -1,0 +1,134 @@
+body{
+background:#F7F0E8;
+font-family: 'Inter', Arial, sans-serif;
+}
+
+header{
+background:#F6EFE7;
+padding:0px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FF7A00;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 28px;
+  margin-right: 28px;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #C45A00;
+}
+
+.logo {
+height: 100px;
+width: 100px;
+border-radius: 50%;
+margin-left: 20px;
+}
+
+.sobre-nos {
+  background: #FDFAF7;
+  padding: 60px 40px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.sn-logo {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: #FF7A00;
+  letter-spacing: -1px;
+  margin-bottom: 40px;
+}
+
+.sn-heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1A1A2E;
+  margin-bottom: 16px;
+  background: none;
+}
+
+.sn-block {
+  border-radius: 20px;
+  padding: 32px 28px;
+  margin-bottom: 36px;
+}
+
+.sn-block.laranja {
+  background: #f79336;
+}
+
+.sn-block.laranja p {
+  color: white;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.sn-block.creme {
+  background: #FFF0E0;
+  border: 1px solid #F0D4B0;
+}
+
+.sn-block.creme p {
+  color: #5A4030;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.sn-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 10px;
+}
+
+.sn-block.laranja .sn-label { color: #FFE0B2; }
+.sn-block.creme .sn-label   { color: #C45A00; }
+
+.sn-values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 36px;
+}
+
+.sn-val {
+  background: #FFF0E0;
+  border-radius: 14px;
+  padding: 20px;
+  border: 1px solid #F0D4B0;
+}
+
+.sn-val strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #C45A00;
+  margin-bottom: 6px;
+}
+
+.sn-val p {
+  font-size: 13px;
+  color: #5A4030;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.rodape{
+    background-color: #00000028;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+}
